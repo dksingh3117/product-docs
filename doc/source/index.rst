@@ -15,6 +15,7 @@ Contents
    :maxdepth: 2
 
    intro
+   stack/index
    data/index
    api/index
    install
