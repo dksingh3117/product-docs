@@ -3,12 +3,6 @@ Data Sources
 
 This section covers the data sources we use in the platform and how they are organized.
 
-.. toctree::
-   omics_intro
-   clinical_intro
-   exogenous_intro
-   remotecare_intro
-
 
 Omics
 @@@@@
