@@ -16,6 +16,7 @@ Contents
 
    intro
    stack/index
+   science/index
    data/index
    api/index
    install

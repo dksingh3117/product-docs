@@ -67,8 +67,8 @@ setup(
     license='Apache License 2.0',
     include_package_data=True,
     zip_safe=True,
-    author="Global Alliance for Genomics and Health",
-    author_email="theglobalalliance@genomicsandhealth.org",
+    author="Omic Inc.",
+    author_email="info@omicmd.com",
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
