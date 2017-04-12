@@ -18,6 +18,7 @@ Contents
    :maxdepth: 2
 
    intro
+   data
    api/index
    install
    schemas/index
