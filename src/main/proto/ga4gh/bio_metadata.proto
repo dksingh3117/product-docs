@@ -1,0 +1,120 @@
+syntax = "proto3";
+
+package ga4gh;
+
+import "ga4gh/common.proto";
+
+
+// An individual (or subject) typically corresponds to an individual
+// human or another organism.
+
+message Individual {
+  // The Individual's :ref:`id <apidesign_object_ids>`. This is unique in the
+  // context of the server instance.
+  string id = 1;
+
+  // The ID of the dataset this Individual belongs to.
+  string dataset_id = 2;
+
+  // The Individual's name. This is a label or symbolic identifier for the individual.
+  string name = 3;
+
+  // The Individual's description. This attribute contains human readable text.
+  // The "description" attributes should not contain any structured data.
+  string description = 4;
+
+  // The :ref:`ISO 8601<metadata_date_time>` time at which this Individual's record
+  // was created.
+  string created = 5;
+
+  // The :ref:`ISO 8601<metadata_date_time>` time at which this Individual record
+  // was updated.
+  string updated = 6;
+
+  // For a representation of an NCBI Taxon ID as an OntologyTerm, see
+  // NCBITaxon Ontology
+  //   http://www.obofoundry.org/ontology/ncbitaxon.html
+  // For example, 'Homo sapiens' has the ID 9606. The NCBITaxon ontology ID for
+  // this is NCBITaxon:9606, which has the URI
+  // http://purl.obolibrary.org/obo/NCBITaxon_9606
+  OntologyTerm species = 7;
+
+  // The genetic sex of this individual.
+  // Use `null` when unknown or not applicable.
+  // Recommended: PATO http://purl.obolibrary.org/obo/PATO_0020001; PATO_0020002
+  OntologyTerm sex = 8;
+
+  // A map of additional information regarding the Individual.
+  Attributes attributes = 10;
+
+}
+
+
+// A Biosample refers to a unit of biological material from which the substrate
+// molecules (e.g. genomic DNA, RNA, proteins) for molecular analyses (e.g.
+// sequencing, array hybridisation, mass-spectrometry) are extracted. Examples
+// would be a tissue biopsy, a single cell from a culture for single cell genome
+// sequencing or a protein fraction from a gradient centrifugation.
+// Several instances (e.g. technical replicates) or types of experiments (e.g.
+// genomic array as well as RNA-seq experiments) may refer to the same Biosample.
+// In the context of the GA4GH metadata schema, Biosample constitutes the central
+// reference object.
+
+message Biosample {
+  // The Biosample :ref:`id <apidesign_object_ids>`. This is unique in the
+  // context of the server instance.
+  string id = 1;
+
+  // The ID of the dataset this Biosample belongs to.
+  string dataset_id = 2;
+
+  // The Biosample's name This is a label or symbolic identifier for the biosample.
+  string name = 3;
+
+  // The biosample's description. This attribute contains human readable text.
+  // The "description" attributes should not contain any structured data.
+  string description = 4;
+
+  // OntologyTerm describing the primary disease associated with this Biosample.
+  OntologyTerm disease = 5;
+
+  // The :ref:`ISO 8601<metadata_date_time>` time at which this Biosample record
+  // was created.
+  string created = 6;
+
+  // The :ref:`ISO 8601<metadata_date_time>` time at which this Biosample record was 
+  // updated.
+  string updated = 7;
+
+  // The individual this biosample was derived from.
+  string individual_id = 8;
+
+  // A map of additional information about the Biosample.
+  Attributes attributes = 10;
+
+  // An age object describing the age of the individual this biosample was
+  // derived from at the time of collection. The Age object allows the encoding
+  // of the age either as ISO8601 duraion or time interval (preferred), or
+  // as ontology term object.
+  Age individual_age_at_collection = 11;
+}
+
+
+// The age object permits both the (considered default) encoding of an age
+// value in ISO8601, with arbitrary granularity; and the representation of an
+// "age class" as qualitative ontology term.
+// If available, a quantitative value should be used & take precedence over the
+// age class, and class assignment should be performed at user/API level.
+
+message Age {
+  // The :ref:`ISO 8601<metadata_date_time>` age of this object as ISO8601
+  // duration or time intervals. The use of time intervals makes an additional
+  // anchor unnecessary (i.e. DOB and age can be represented as start-anchored
+  // time interval, e.g. 1967-11-21/P40Y10M05D)
+  // TODO: Anonymous reference time attribute/pointer?
+  string age = 1;
+
+  // HPO is recommended, for example, subclasses of
+  // http://purl.obolibrary.org/obo/HP_0011007
+  OntologyTerm age_class = 2;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package ga4gh;
+
+import "ga4gh/common.proto";
+
+// A Dataset is a collection of related data of multiple types.
+// Data providers decide how to group data into datasets.
+// See [Metadata API](../api/metadata.html) for a more detailed discussion.
+message Dataset {
+  // The dataset's id, locally unique to the server instance.
+  string id = 1;
+
+  // The name of the dataset.
+  string name = 2;
+
+  // Additional, human-readable information on the dataset.
+  string description = 3;
+
+  // A map of additional dataset information.
+  Attributes attributes = 5;
+}
+
