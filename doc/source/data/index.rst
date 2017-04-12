@@ -1,15 +1,14 @@
 Data Sources
 !!!!!!!!!!!!
 
-The API is designed for sharing genomic data. It currently has support
-for sharing sequencing reads, genetic variants, and reference genomes.
-The following sections give an overview of the API, including general
-API patterns, individual data types, and links to detailed schema
-documentation.
+This section covers the data sources we use in the platform and how they are organized.
 
 .. toctree::
-   apidesign_intro
-   apigoals_intro
+   omics_intro
+   clinical_intro
+   exogenous_intro
+   remotecare_intro
+
 
 Reads
 @@@@@
