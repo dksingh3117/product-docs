@@ -1,7 +1,7 @@
 .. _remotecare:
 
 ************************
-Remote Care DAta
+Remote Care Data
 ************************
 For the Sequence Annotation schema definitions, see `Sequence Annotation schema <../schemas/sequence_annotations.proto.html>`_
 
