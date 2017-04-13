@@ -1,7 +1,7 @@
-Data Sources
-!!!!!!!!!!!!
+Science
+!!!!!!!
 
-This section covers the data sources we use in the platform and how they are organized.
+This section covers some of the science and clinical operations used in the product.
 
 
 Omics
@@ -13,28 +13,10 @@ Omics covers genomics, proteomics, and metabolomics. Omics aims at the collectiv
    omics
 
 
-Clinical Data
-@@@@@@@@@@@@@
+Medicine
+@@@@@@@@
 
-Clinical data are any data from hospitals, labs, insurance companies, or other direct health care sources. These can include patient medical records, lab tests, and medical images. 
-
-.. toctree::
-   clinical
-
-
-Exogenous Data
-@@@@@@@@@@@@@@
-
-Exogenous data are related to the patient's lifestyle and environment. They include socioeconomics, environmental factors such as air quality, and lifestyle factors like diet and activity.
+Not intended to be a tome of medical information, this is only meant to cover the relevant clinical practices and guidelines related to genomic medicine software. 
 
 .. toctree::
-   exogenous
-
-Remote Care Data
-@@@@@@@@@@@@@@@@
-
-Sequence annotations describe genomic features such as genes and exons,
-using terms from an established sequence ontology.
-
-.. toctree::
-   remotecare
+   medicine
