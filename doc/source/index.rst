@@ -18,8 +18,7 @@ Contents
    stack/index
    science/index
    data/index
-   api/index
-   install
+   api_library/index
    schemas/index
    development
    changelog

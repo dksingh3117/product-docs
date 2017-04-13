@@ -1,5 +1,5 @@
-API Overview
-!!!!!!!!!!!!
+GA4GH API Overview
+!!!!!!!!!!!!!!!!!!
 
 The API is designed for sharing genomic data. It currently has support
 for sharing sequencing reads, genetic variants, and reference genomes.
