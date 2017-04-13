@@ -1,8 +1,8 @@
-.. _exogenous:
+.. _middleware:
 
 
-Exogenous Data
-!!!!!!!!!!!!!!
+Middleware
+!!!!!!!!!!
 
 See `References schema <../schemas/references.proto.html>`_ for a detailed reference.
 

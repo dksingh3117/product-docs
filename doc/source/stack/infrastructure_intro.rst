@@ -1,10 +1,10 @@
-.. _omics:
+.. _infrastructure:
 
 
-Omics
+Infrastructure
 !!!!!!!!!!
 
-.. _omics_object_ids:
+.. _infrastructure_object_ids:
 
 Object Ids
 @@@@@@@@@@

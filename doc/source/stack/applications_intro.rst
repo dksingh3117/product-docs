@@ -1,10 +1,10 @@
-.. _clinical:
+.. _applications:
 
 
-Omics
-!!!!!!!!!!
+Applications
+!!!!!!!!!!!!
 
-.. _clinical_object_ids:
+.. _applications_object_ids:
 
 Object Ids
 @@@@@@@@@@

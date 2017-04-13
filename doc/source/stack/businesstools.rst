@@ -1,7 +1,7 @@
-.. _exogenous:
+.. _businesstools:
 
 
-Exogenous Data
+Business Tools
 !!!!!!!!!!!!!!
 
 See `References schema <../schemas/references.proto.html>`_ for a detailed reference.

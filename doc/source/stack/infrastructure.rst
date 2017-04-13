@@ -1,11 +1,11 @@
-.. _omics:
+.. _infrastructure:
 
 
-Omics Data
-!!!!!!!!!!
+Infrastructure
+!!!!!!!!!!!!!!
 
-Omics Data
-@@@@@@@@@@
+Infrastructure
+@@@@@@@@@@@@@@
 
 The Reads data model,although based on the SAM format, allows for more
 versatile interaction with the data.  Instead of sending whole

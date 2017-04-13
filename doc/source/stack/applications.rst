@@ -1,7 +1,7 @@
-.. _variants:
+.. _applications:
 
 
-Variants API
+Applications
 !!!!!!!!!!!!
 
 See `Variants schema <../schemas/variants.proto.html>`_ for a detailed reference.
