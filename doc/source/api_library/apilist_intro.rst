@@ -1,10 +1,10 @@
-.. _apidesign:
+.. _apilist:
 
 
-API Design
+API List
 !!!!!!!!!!
 
-.. _apidesign_object_ids:
+.. _apilist_object_ids:
 
 Object Ids
 @@@@@@@@@@
