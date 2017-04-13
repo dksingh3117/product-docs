@@ -22,4 +22,3 @@ Contents
    schemas/index
    development
    changelog
-   appendix/index

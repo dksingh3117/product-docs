@@ -104,3 +104,12 @@ over network protocols. This includes the Peer Service.
 
 .. toctree::
    network.rst
+
+Appendix
+@@@@@@@
+
+Additional information.
+
+.. toctree::
+   appendix/index.rst
+
