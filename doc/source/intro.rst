@@ -14,7 +14,7 @@ Wikipedia also has good overviews of `bioinformatics <https://en.wikipedia.org/w
 and `DNA sequencing <https://en.wikipedia.org/wiki/DNA_sequencing>`_
 
 
-General Architecture
-@@@@@@@@@@@@@@@@@@@@
+General Overview
+@@@@@@@@@@@@@@@@
 
-The product is essentially an organized collection of research and medical databases, hosted in a secure, HIPAA-compliant location. The key data are abstracted through APIs, and exposed through services via an API-led architecture including system, process, and experience APIs. As such, we are not constructing a data lake - rather a highly-available distributed network of data sources and applications, including analysis "tracks" layered on for things like machine learning predictions of disease risk or drug efficacy. 
+The product contains an organized collection of research and medical databases, hosted in a secure, HIPAA-compliant location. The key data are integrated and exposed through services via an API-led architecture including system, process, and experience APIs. As such, we are not constructing a data lake; rather a highly-available distributed network of data sources and applications, including analysis "tracks" layered on for things like machine learning predictions of disease risk or drug efficacy. 

@@ -25,6 +25,7 @@ Finance: TBD
 Product Mgmt: Jira/Rally TBD
 Documentation: Read The Docs
 Bug Management: Bugzilla? TBD
+Git Repo: Move to GitLab? Currently Bitbucket and GitHub
 Support Ticketing: TBD
 Business Tool Integration: IF/Zapier depending on pre-built integrations
 Email Marketing: ActiveCampaign

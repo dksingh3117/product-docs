@@ -11,8 +11,12 @@ AWS Services
 
 We use the following AWS services:
 
-EC2: Compute
-OS: Amazon EC2 Linux
-RDS: Storage
-SQL Database: PostgreSQL (default structured), MySQL (when required)
-NoSQL Database: MongoDB (TBD)
+* EC2: Compute
+
+* OS: Amazon EC2 Linux
+
+* RDS: Storage
+
+* SQL Database: PostgreSQL (default structured), MySQL (when required)
+
+* NoSQL Database: MongoDB (TBD)
