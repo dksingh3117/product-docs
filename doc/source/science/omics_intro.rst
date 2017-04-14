@@ -1,10 +1,10 @@
-.. _omics:
+.. _omics_intro:
 
 
-Omics
-!!!!!
+Omics Intro
+!!!!!!!!!!!
 
-.. _omics:
+.. _omics_intro:
 
 Genomics to Clinical Guidelines
 @@@@@@@@@@
