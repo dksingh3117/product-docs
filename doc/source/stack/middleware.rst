@@ -4,26 +4,75 @@
 Middleware
 !!!!!!!!!!
 
-See `References schema <../schemas/references.proto.html>`_ for a detailed reference.
 
+Middleware Structure
+@@@@@@@@@@@@@@@@@@@@
 
-References Data Model
-@@@@@@@@@@@@@@@@@@@@@
+We use a three-tier classification structure for APIs.
 
-A genome assembly is a digital representation of a genome. It is
-typically composed of *contigs*, each an uninterrupted string
-representing a DNA sequence, arranged into *scaffolds*, each of which
-orders and orients a set of contigs. Scaffolds are typically
-represented as a string, with runs of wildcard characters (N or n)
-used to represent interstitial regions of uncertain DNA between
-contigs.
+* System - APIs that directly access databases and organize the data into functional domains (e.g. the “Person” data element)
 
-A reference genome is a genome assembly that other genomes are
-compared to and described with respect to.  For example, sequencing
-reads are mapped to and described with respect to a reference genome
-in the API, and genetic variations are described as edits to reference
-scaffolds/contigs.  In the API a reference genome is described by a
-*ReferenceSet*. In turn a *ReferenceSet* is composed of a set of
-*Reference* objects, each which represents a scaffold or contig in the
-assembly. *Reference* sequences are expected to have unique names within 
-a *ReferenceSet*.
+* Process - APIs that deal with processes and orchestration (e.g. the “Order Test” process)
+
+* Experience - APIs that combine process and/or System APIs to expose data directly to an app developer (e.g. a web portal experience API that abstracts a FHIR system API and an order test process API with a light-weight RESTful interface). The Experience API can be used to create a front end experience without understanding complex system domains or business logic encapsulated within process APIs.
+
+Example
+@@@@@@@
+
+.. image:: /_static/stack/mulecatalyst.png
+
+This is an example published by MuleSoft of a three-tier architecture for health care. In it, data are abstracted from complex EHR systems like Epic into a canonical model that is represented via a set of FHIR REST APIs. Then, experience APIs are layered on top to provide better experiences for both patients and clinicians.
+
+# System Layer
+
+System APIs abstract away the complexity of EHRs and other core systems of record from the data’s end user, while providing downstream insulation from any interface changes or rationalization of those systems.
+
+Assets Included:
+
+* CRM FHIR System API | Salesforce Implementation Template
+
+* CRM FHIR System API | RAML Definition
+
+* EHR FHIR System API | EHR Implementation Template*
+
+* EHR FHIR System API | RAML Definition
+
+* Fitness FHIR System API | Fitbit Implementation Template
+
+* Fitness FHIR System API | RAML Definition
+
+# Process Layer
+
+Process APIs decouple business processes that interact with and shape data from the source systems where the data originated. For example, the “schedule appointment” process contains logic that is common across multiple entities, which can be called by product, geography, or channel-specific parent services.
+
+Assets Included:
+
+* Onboarding Process API | Implementation Template
+
+* Appointments Process API | Implementation Template
+
+* Appointments Process API | RAML Specification
+
+* EHR to CRM Sync Process API | Implementation Template
+
+* Fitness Data Sync Process API | Implementation Template
+
+* HL7 Event Handler | Implementation Template (Coming soon)
+
+# Experience Layer
+
+Experience APIs are the means by which data can be reconfigured so that it is most easily consumed by its intended audience, all from a common data source, rather than setting up separate point-to-point integrations.
+
+Assets included:
+
+* Web Portal Experience API | Implementation Template
+
+* Web Portal Experience API | RAML Specification
+
+* Salesforce Experience API | Implementation Template
+
+Supporting Assets:
+
+* HL7 Connector
+
+* 12 FHIR APIs | RAML Specification

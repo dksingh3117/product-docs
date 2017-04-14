@@ -13,15 +13,6 @@ Describes our AWS-based infrastructure and devops.
    infrastructure
 
 
-Languages
-@@@@@@@@@
-
-Common languages and standards. 
-
-.. toctree::
-   languages
-
-
 Middleware
 @@@@@@@@@@
 
@@ -30,13 +21,29 @@ Middleware tools, architecture, guidelines.
 .. toctree::
    middleware
 
-Applications
-@@@@@@@@@@@@
+Applications and Data
+@@@@@@@@@@@@@@@@@@@@@
 
-Machine learning, biological processing, and other supporting applications.
+Frameworks, languages, databases, and other supporting applications.
 
 .. toctree::
    applications
+
+Utilities
+@@@@@@@@@
+
+Tools we use to support business operations.
+
+.. toctree::
+   utilities
+
+DevOps
+@@@@@@@@@
+
+Tools we use to support business operations.
+
+.. toctree::
+   devops
 
 Business Tools
 @@@@@@@@@@@@@@
