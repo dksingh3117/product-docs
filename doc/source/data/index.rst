@@ -10,7 +10,7 @@ Omics
 Omics covers genomics, proteomics, and metabolomics. Omics aims at the collective characterization and quantification of pools of biological molecules that translate into the structure, function, and dynamics of an organism or organisms. 
 
 .. toctree::
-   omics
+   omics_intro
 
 
 Clinical Data
