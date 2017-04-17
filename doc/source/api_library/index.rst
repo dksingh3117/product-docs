@@ -1,16 +1,12 @@
 API Library
 !!!!!!!!!!!
 
-The API is designed for sharing genomic data. It currently has support
-for sharing sequencing reads, genetic variants, and reference genomes.
-The following sections give an overview of the API, including general
-API patterns, individual data types, and links to detailed schema
-documentation.
+The API library 
 
 .. toctree::
-   apidesign_intro
    apigoals_intro
+   apidesign_intro
    apilist_intro
-   
-
-
+   system_api/index
+   process_api/index
+   experience_api/index

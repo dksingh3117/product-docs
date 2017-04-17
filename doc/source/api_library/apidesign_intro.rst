@@ -6,108 +6,71 @@ API Design
 
 .. _apidesign_object_ids:
 
-Object Ids
-@@@@@@@@@@
+We use a three-tier classification structure for APIs.
 
-* Many objects need to be referenced by the API (e.g. a search method
-  may return a list of objects) and by applications built outside the
-  API (e.g. a visualization app may refer back to the objects being
-  shown). The API has a standard mechanism for referring to such
-  objects.
+* System - APIs that directly access databases and organize the data into functional domains (e.g. the “Person” data element)
 
-* The standard way to programmatically reference an object is via an
-  **id** field. The id is server-assigned, and must provide “id-like”
-  semantics, including:
+* Process - APIs that deal with processes and orchestration (e.g. the “Order Test” process)
 
-  * ids are unique within the scope of the server instance
+* Experience - APIs that combine process and/or System APIs to expose data directly to an app developer (e.g. a web portal experience API that abstracts a FHIR system API and an order test process API with a light-weight RESTful interface). The Experience API can be used to create a front end experience without understanding complex system domains or business logic encapsulated within process APIs.
 
-  * ids are durable for the lifetime of the server, and persistent
-    across server restarts -- once a user is given an ID for data
-    stored on a server, the id remains valid for as long as the server
-    is still storing that data
-
-* Many objects, including most ‘container’ objects, also have a
-  **name** field. The name is user-defined and is intended to be human
-  readable.  This can be thought of as a display name.
-
-* Reference names within a Reference Set are expected to be unique.
-  There are no other uniqueness requirements on names.
-
-Cross-repository data federation will need a standard way to refer to
-a data object, regardless of which repository it’s in. There is no
-such standard currently, and the current API, including the id and
-name fields, isn’t sufficient.  A future API may introduce standard
-cross-repository identifiers using some combination of **content
-hashes**, **GUIDs**, and central **accession** facilities.
-
-
-ID and Name
-@@@@@@@@@@@
-
-Throughout the API objects have *IDs*. The purpose of IDs is to allow
-unique identification of all objects within a single server, such that
-no two objects in a given server have the same ID and no object has
-more than one ID.  The scope of an ID is limited to a given server and
-an ID may be an arbitrary string.
-
-A name is a user defined identifier. Names need only be uniquely
-identifying within a specific scope, for example, the names of
-sequences within a ReferenceSet must be distinct, but there might be
-two sequences named "chr1" stored in a server, each in a different
-ReferenceSet. Names may be an arbitrary string.
-
-
-Object Relationships
-@@@@@@@@@@@@@@@@@@@@
-
-* Some objects are contained by other objects. These relationships can
-  be
-
-  * many:1 (e.g. ReadGroupSets in a Dataset); aka single-include
-
-  * many:many (e.g. ReadGroups in a ReadGroupSet); aka multi-include
-
-* Some objects are derived from other objects. These relationships can
-  be
-
-  * many:1 (e.g different aligned ReadGroupSet’s derived from an
-    unaligned ReadGroupSet using different alignment algorithms and/or
-    reference sequences)
-
-  * many:many (e.g. different VariantSets derived from a collection of
-    ReadGroupSets using different joint variant calling algorithms)
-
-Dataset
+Example
 @@@@@@@
 
-A dataset is a highest level grouping that contains sequence and
-variant data. It provides the concept of a container which allows high
-level separation between data.
+.. image:: /_static/stack/mulecatalyst.png
 
-For the Dataset schema definition see the `Metadata schema
-<schemas/metadata.html>`_
+This is an example published by MuleSoft of a three-tier architecture for health care. In it, data are abstracted from complex EHR systems like Epic into a canonical model that is represented via a set of FHIR REST APIs. Then, experience APIs are layered on top to provide better experiences for both patients and clinicians.
 
-    
-Unresolved Issues
-@@@@@@@@@@@@@@@@@
+**1. System Layer**
 
-* Is the GA4GH object design a conceptual data model that must be
-  followed or only containers for data exchange.  If they are
-  containers, where is the conceptual data model defined?
+System APIs abstract away the complexity of EHRs and other core systems of record from the data’s end user, while providing downstream insulation from any interface changes or rationalization of those systems.
 
-* Are GA4GH objects idempotent?  In particular, can one obtain an
-  object with a subset of it's fields?
+Assets Included:
 
-* Is object life-cycle semantics in the scope of GA4GH API? Which
-  objects are immutable and which are mutable?  If objects are
-  mutable, how does one know they have changed?  How does one protect
-  against changes while using the objects over a given time-frame?
+* CRM FHIR System API | Salesforce Implementation Template
 
-* What is the definition of the wire protocol?  HTTP 1.0? Is HTTP 1.1
-  chunked encoding allowed?  What is the specification for the
-  generated JSON for a given an Protocol Buffers schema?
+* CRM FHIR System API | RAML Definition
 
-* What is the role of Protocol Buffers?  Is it for documentation-only
-  or for use as an IDL?
+* EHR FHIR System API | EHR Implementation Template*
 
-* Need overall object relationship diagram.
+* EHR FHIR System API | RAML Definition
+
+* Fitness FHIR System API | Fitbit Implementation Template
+
+* Fitness FHIR System API | RAML Definition
+
+**2. Process Layer**
+
+Process APIs decouple business processes that interact with and shape data from the source systems where the data originated. For example, the “schedule appointment” process contains logic that is common across multiple entities, which can be called by product, geography, or channel-specific parent services.
+
+Assets Included:
+
+* Onboarding Process API | Implementation Template
+
+* Appointments Process API | Implementation Template
+
+* Appointments Process API | RAML Specification
+
+* EHR to CRM Sync Process API | Implementation Template
+
+* Fitness Data Sync Process API | Implementation Template
+
+* HL7 Event Handler | Implementation Template (Coming soon)
+
+**3. Experience Layer**
+
+Experience APIs are the means by which data can be reconfigured so that it is most easily consumed by its intended audience, all from a common data source, rather than setting up separate point-to-point integrations.
+
+Assets included:
+
+* Web Portal Experience API | Implementation Template
+
+* Web Portal Experience API | RAML Specification
+
+* Salesforce Experience API | Implementation Template
+
+Supporting Assets:
+
+* HL7 Connector
+
+* 12 FHIR APIs | RAML Specification

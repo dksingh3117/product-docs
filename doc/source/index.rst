@@ -19,6 +19,7 @@ Contents
    science/index
    data/index
    api_library/index
+   app_library/index
    schemas/index
    development
    changelog
