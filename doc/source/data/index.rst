@@ -24,6 +24,13 @@ Our list and organization is not complete, but will be a work in progress. As th
    omics/somatic
    omics/eqtl
    omics/ontologies
+   omics/proteomics
+   omics/glycomics
+   omics/metabolomics
+   omics/transcriptomics
+   omics/epigenomics
+   omics/phenomics
+   omics/microbiome
 
 
 Clinical Data
@@ -32,9 +39,9 @@ Clinical Data
 Clinical data are any data from hospitals, labs, insurance companies, or other direct health care sources. These can include patient medical records, lab tests, and medical images. 
 
 .. toctree::
-   clinical/cerner_sandbox
-   clinical/epic_sandbox
-   clinical/fhir_sandbox
+   clinical/ehr
+   clinical/lab
+   clinical/insurance
 
 
 Exogenous Data
@@ -43,7 +50,7 @@ Exogenous Data
 Exogenous data are related to the patient's lifestyle and environment. They include socioeconomics, environmental factors such as air quality, and lifestyle factors like diet and activity.
 
 .. toctree::
-   exogenous
+   exogenous/exogenous
 
 Remote Care Data
 @@@@@@@@@@@@@@@@
@@ -52,4 +59,4 @@ Sequence annotations describe genomic features such as genes and exons,
 using terms from an established sequence ontology.
 
 .. toctree::
-   remotecare
+   remotecare/remotecare
