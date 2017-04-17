@@ -55,8 +55,7 @@ Exogenous data are related to the patient's lifestyle and environment. They incl
 Remote Care Data
 @@@@@@@@@@@@@@@@
 
-Sequence annotations describe genomic features such as genes and exons,
-using terms from an established sequence ontology.
+Sequence annotations describe genomic features such as genes and exons, using terms from an established sequence ontology.
 
 .. toctree::
-   remotecare/remotecare
+   remote/remotecare
