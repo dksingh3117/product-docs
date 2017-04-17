@@ -4,24 +4,32 @@
 Advisory Support
 @@@@@@@@@@@@@@@@
 
-mhealth
-telehealth
+* mhealth
+
+* telehealth
 
 
 Chronic Diseasae
 @@@@@@@@@
 
-pain
-cardiac disease
-insulin
-mental
+* pain
+
+* cardiac disease
+
+* insulin
+
+* mental
 
 
 Sensors/Wearables/Apps
 @@@@@@@@@@@@@
 
-clinical
-consumer
-medication adherence
-personal diet
-cessation
+* clinical
+
+* consumer
+
+* medication adherence
+
+* personal diet
+
+* cessation
