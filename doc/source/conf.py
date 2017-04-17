@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# GA4GH Schemas documentation build configuration file, created by
-# sphinx-quickstart on Thu Jul  2 16:00:07 2015.
+# OmicMD documentation build configuration file, created by
+# sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -86,9 +86,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'GA4GH Schemas'
-copyright = u'2015, Global Alliance for Genomics and Health'
-author = u'Global Alliance for Genomics and Health'
+project = u'OmicMD Documentation'
+copyright = u'2017, Omic Inc.'
+author = u'Omic Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
