@@ -15,6 +15,7 @@ Drug-Gene
 
 * PharmGKB - industry standard for PGx
 
+* CPIC - Clinical Pharmacogenomics Implementation Consortium guidelines. CPIC guidelines are designed to help clinicians understand HOW available genetic test results should be used to optimize drug therapy, rather than WHETHER tests should be ordered. 
 
 **3. UNDER INVESTIGATION**
 

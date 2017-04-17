@@ -19,7 +19,7 @@ Genomics
 **Genetics** is the study of single genes and their role in the way traits or conditions are passed from one generation to the next. **Genomics** is a term that describes the study of all parts of an organism's genes. We typically refer to genomics in all our documentation.
 
 .. toctree::
-   /genomics/genomics_intro
+   genomics/genomics_intro
 
 
 Proteomics
