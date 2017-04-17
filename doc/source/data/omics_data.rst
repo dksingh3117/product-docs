@@ -1,10 +1,4 @@
-.. _omics:
-
-
-Omics Intro
-!!!!!!!!!!!
-
-.. _omics:
+.. _omics_data:
 
 Omics Data Sources
 @@@@@@@@@@@@@@@@@@

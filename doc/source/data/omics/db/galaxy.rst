@@ -1,10 +1,10 @@
-.. _eqtl:
+.. _galaxy:
 
 
-eQTL - to be updated
-!!!!!!!!!!!!!!!
+Galaxy
+!!!!!!
 
-Biorepositories are exactly as they sound - repositories of biological data, especially genetic test data. See below for a common list of biorepositories around the globe.
+Galaxy is a collection .
 
 .. image:: /_static/data/biorepositories.png
 
