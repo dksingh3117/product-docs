@@ -9,8 +9,21 @@ Omics
 
 Omics covers genomics, proteomics, and metabolomics. Omics aims at the collective characterization and quantification of pools of biological molecules that translate into the structure, function, and dynamics of an organism or organisms. 
 
+Omics data sources are primarily research knowledgebases and/or curated by individuals wiki-style. As such, while they serve a specific function, they will not be error-free, may be conflicting, and are often incomplete or cross functional lines. 
+
+Our list and organization is not complete, but will be a work in progress. As these sources evolve we will track them here.
+
 .. toctree::
-   omics_data
+   omics/biorepositories
+   omics/variants
+   omics/expression
+   omics/druggene
+   omics/genephen
+   omics/drugphen
+   omics/drugdrug
+   omics/somatic
+   omics/eqtl
+   omics/ontologies
 
 
 Clinical Data

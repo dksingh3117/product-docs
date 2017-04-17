@@ -9,8 +9,6 @@ Biorepositories are exactly as they sound - repositories of biological data, esp
 .. image:: /_static/data/biorepositories.png
 
 
-Drug - Gene
-@@@@@@@@@@@@@@@@@@
 
 Linked open data and biorepositories:
 * Bio2RDF: PharmGKB, OMIM, DrugBank, NCBI Gene, PubMed & many more 

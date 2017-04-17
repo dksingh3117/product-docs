@@ -9,9 +9,6 @@ Biorepositories are exactly as they sound - repositories of biological data, esp
 .. image:: /_static/data/biorepositories.png
 
 
-Ontologies
-@@@@@@@@@@@@@@@@@@
-
 Linked open data and biorepositories:
 * Bio2RDF: PharmGKB, OMIM, DrugBank, NCBI Gene, PubMed & many more 
 multiple sources but use but downloaded datasets with the most recent dated as Sept 2014. Some datasets mentioned are research-oriented (eg Affy microarray probesets but not datasets). 
