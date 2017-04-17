@@ -4,36 +4,39 @@
 Expression - to be updated
 !!!!!!!!!!!!!!!
 
-Biorepositories are exactly as they sound - repositories of biological data, especially genetic test data. See below for a common list of biorepositories around the globe.
-
-.. image:: /_static/data/biorepositories.png
+**1. IN USE**
 
 
-Linked open data and biorepositories:
-* Bio2RDF: PharmGKB, OMIM, DrugBank, NCBI Gene, PubMed & many more 
-multiple sources but use but downloaded datasets with the most recent dated as Sept 2014. Some datasets mentioned are research-oriented (eg Affy microarray probesets but not datasets). 
-Outdated, a method for linking and creating compatible data from multiple sources.
-Code method
-* DailyMed - Structured Product Label (SPL) - pdts & ingredients, title of drug use
-* PGx labeled FDA approved drugs - gene & functions but not all mention alleles
-* CGN (shut down for now) - Clinical database of patients from 14 cancer centers
-* NCI Specimen Resource Locator - biological samples from cancer patients
-Biobank resource, researchers oriented
-* BioLINCC - biological samples and clinical data from NHLBI studies 
-Biobank resource, researchers oriented, ? data format available - ie raw and need analysis
-* Rare Disease-HUB - biological samples from patients with rare diseases
-Biobank resources, researchers oriented, samples info & clinical data linked.
-* PGP - genotype data with linked medical and personal information
-Genome (WGS, exomes), trait, profiles, microbiome
-Depends on willing participants
-? no. of participants so far,
-Likely that data analysis required
-* iSAEC - clinical and genotyping data from studies of adverse drug events
-data dissemination web site has been setup to provide access to the iSAEC data by qualified researchers exclusively for the purpose of conducting biomedical research
-* eMERGE Network - DNA repositories with linked electronic medical records
-Data generated from network partners - eMERGE PGx (sequencing of target patients), IGNITE (research), electronic medical records (EMRs), ENCODE, CSER
-?epidemio and statistical analysis
-* UK Biobank - population-based repo of biological samples with linked medical, lifestyle, and family history data
-Also have genetic and phenotypic data
-Researchers oriented, ? epidemiological & statistical analysis not done.
 
+**2. TARGETED**
+
+* UCSC Genome Browser - DNA sequences annotated with gene expression data from a wide range of sources
+
+
+
+**3. UNDER INVESTIGATION**
+
+* ICGC - Copy number, rearrangement, expression, mutation data. Cancer projects, data repo. Drug infor from DrugBank & ChEMBL (part of EMBL-EBI)
+
+* GEO - Gene expression data from >2500 studies. Currently 4348 datasets, also a repo for RNAseq datasets. ? analysed or raw data or both - to double check
+
+* European Nucleotide Archive (ENA) - WGS repo (raw, mapped & annotated)
+
+* Oncomine - Gene expression data from GEO, TCGA and other projects. Thermo Fisher platform, need to register to see what they can really do. Claims 700+ independent datasets but ?? exact resources.
+
+* Cell Miner - Gene expression and GI50 drug concentration data from NCI-60 cell lines. Datasets are raw or normalised. Facilitates systems biology research. miRBase, dbSNPs, GEO
+
+* SBM DB - Hu mRNA (Affy U133A), HUVEC mRNA & protein (IHC) expression from healthy and tumoral tissues, normal and cancer cell lines. Provide base for new drug development
+
+* GENT - Microarray-derived mRNA expression data from >34000 tissue samples
+
+* Cancer Genome Anatomy Project - Gene expression from normal, precancer and cancer cells
+CGAP/ MGC, ORESTES, EST libraries. Downloadable data in tab-delimited ASCII
+
+* mirBase - miRNAs database, nomenclature.(a bit like dbSNP but only for miRNAs). need to find out where miRNAs microarrays vs conditions data are. can be found in ENCODE
+
+
+
+**4. REJECTED**
+
+* ArrayExpress - Microarray-derived mRNA expression data from >25000 studies (EMBL-EBI). Currently 69786 studies of raw datasets for research community. Not helpful as raw data are unmapped, without statistical significance to indicate relevance and require analysis

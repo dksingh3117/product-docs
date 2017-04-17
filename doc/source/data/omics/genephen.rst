@@ -1,39 +1,58 @@
 .. _genephen:
 
 
-Gene-Phenotype - to be updated
-!!!!!!!!!!!!!!!
+Gene-Phenotype
+!!!!!!!!!!!!!!
 
-Biorepositories are exactly as they sound - repositories of biological data, especially genetic test data. See below for a common list of biorepositories around the globe.
-
-.. image:: /_static/data/biorepositories.png
+**1. IN USE**
 
 
-Linked open data and biorepositories:
-* Bio2RDF: PharmGKB, OMIM, DrugBank, NCBI Gene, PubMed & many more 
-multiple sources but use but downloaded datasets with the most recent dated as Sept 2014. Some datasets mentioned are research-oriented (eg Affy microarray probesets but not datasets). 
-Outdated, a method for linking and creating compatible data from multiple sources.
-Code method
-* DailyMed - Structured Product Label (SPL) - pdts & ingredients, title of drug use
-* PGx labeled FDA approved drugs - gene & functions but not all mention alleles
-* CGN (shut down for now) - Clinical database of patients from 14 cancer centers
-* NCI Specimen Resource Locator - biological samples from cancer patients
-Biobank resource, researchers oriented
-* BioLINCC - biological samples and clinical data from NHLBI studies 
-Biobank resource, researchers oriented, ? data format available - ie raw and need analysis
-* Rare Disease-HUB - biological samples from patients with rare diseases
-Biobank resources, researchers oriented, samples info & clinical data linked.
-* PGP - genotype data with linked medical and personal information
-Genome (WGS, exomes), trait, profiles, microbiome
-Depends on willing participants
-? no. of participants so far,
-Likely that data analysis required
-* iSAEC - clinical and genotyping data from studies of adverse drug events
-data dissemination web site has been setup to provide access to the iSAEC data by qualified researchers exclusively for the purpose of conducting biomedical research
-* eMERGE Network - DNA repositories with linked electronic medical records
-Data generated from network partners - eMERGE PGx (sequencing of target patients), IGNITE (research), electronic medical records (EMRs), ENCODE, CSER
-?epidemio and statistical analysis
-* UK Biobank - population-based repo of biological samples with linked medical, lifestyle, and family history data
-Also have genetic and phenotypic data
-Researchers oriented, ? epidemiological & statistical analysis not done.
 
+**2. TARGETED**
+
+* dbGaP- Database of Genotypes and Phenotypes. controlled access mechanisms
+
+* PhenGenI - Phenotype-Genotype Integrator (PheGenI), merges NHGRI genome-wide association study (GWAS) catalog data with Gene, dbGaP, OMIM, GTEx and dbSNP
+
+* OMIM - Online Mendelian Inheritance in Man
+
+* ClinGen - database of clinical genomics
+
+* NCBI ClinVar - clinically relevant variants
+
+**3. UNDER INVESTIGATION**
+
+* PhenCode - human genotype and phenotype, link locus specific dbs, UniProt with USCS Genome browser
+
+* Model Organisms (which hyperlink?) - mouse, rat, worm, fly, yeast, slime mold
+
+* Wellcome Trust Case Control Consortium - identifies genome sequence variants including major causes of morbidity and mortality through large-scale GWAS. WT funded projects, mostly UK. Application for data access, ie controlled access through Eur Genotype Archive (EBI). Researchers oriented
+
+* EMBL-EBI GWAS
+
+* HuGE Navigator - web tools enabling mining of literature and genetic association studies. Human Genome Epidemiology encyclopedia. CDC dbs, MeSH, NCBI Gene, HUGO, Pubmed
+
+* GWAS Central - genetic wide association studies for wide range of conditions (>1844 studies). dbSNPs, DBGV
+
+* ENCODE Project - genome browser, non-coding functional elements, new site for project at https://www.encodeproject.org/. Data viewable in GENCODE on BioDalliance Browser specifically for human and mouse genome
+
+* SNP Function Portal - annotation of snps at the genome, transcript, protein, pathway, disease, and population levels. Research oriented for own data. Use infor from GB, UniGene LocusLink
+
+* pfSNP - SNP function and results from GWAS
+
+* Pupasuite - bioinformatic analyses of SNP functions - toolkits; research oriented
+
+* FuncPred - bioinformatic analyses of SNP functions. dbSNP, miRanda
+
+* F-SNP - bioinformatic analyses of SNP functions. dbSNP, Ensembl, SIFT, PolyPhen,
+
+
+**4. REJECTED**
+
+* NHGRI catalog - GWAS results, catalog moved to EMBL-EBI GWAS
+
+* SIFT - effects of non-synonymous SNPs; predictions. dbSNP, Ensembl gene. Not useful at the moment
+
+* PolyPhen - effects of non-synonymous SNPs; prediction. Not useful at the moment
+
+* PhenX - GWAS & epi tool kit, research oriented. ? downloaded sources, ignore for now.

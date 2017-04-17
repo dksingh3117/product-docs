@@ -15,8 +15,7 @@ Variants
 
 * NCBI Gene - Integrative resource for genes, variants and phenotypes. Annotated genes, variants, phenotypes, linked to specific external resources. Also linked to NCBI Genome
 
-* UCSC genome browser - annotated genomic reference sequences
-Similar to NCBI resources but usually slower with update information as new research data are submitted to repositories appear in NCBI first. Leave out for now, or use as secondary verification source
+* UCSC genome browser - annotated genomic reference sequences. Similar to NCBI resources but usually slower with update information as new research data are submitted to repositories appear in NCBI first. Leave out for now, or use as secondary verification source
 
 * Ensembl - annotated genomic reference sequences. Similar to NCBI resources, slower with updated data, and uses own IDs but longer string of numbers. Tendency to remove untranslated region from mRNA sequences (ie only Start to Stop codon). Also the basis for other EMBL-EBI resources.
 
@@ -40,6 +39,24 @@ Similar to NCBI resources but usually slower with update information as new rese
 * UCSC Genome assembly for positional mapping
 
 * Seattle SNPs - SNP discovery resource for inflammatory responses. Re-sequencing methodology advice & guidance to researchers, dbSNP, RefSeq/NCBI genome assembly
+
+* 1000 Genomes - whole genome sequencing and variants & haplotype blocks, completed project. Incorporating data into International Genome Sample Resource (IGSR) - useful
+
+* SPSmart - large-scale genomic variants browsing (visualisation). Databases 1K Genome Project, HapMap, Perlegen, CEPH, dbSNPs
+
+* SNAP - Retrieval of SNP LD data from 1000 genomes and HapMap. may be irrelevant at this point, researchers oriented
+
+* Database of Genomic Variants (DGV) - structural genetic variants found in healthy individuals; CNVs, Inv
+
+* Innate Immunity Programs for Genomic Applications - genotypes and haplotypes from genes related to innate immunity. Haplotypes tools, SNPs & InDels
+
+* JSNP database (article downloaded into shared folder) - repo of common snps in the japanese population - weblink from article error - server not found  ?ETHNOS
+
+* dbVar - NCBI repo of CNVs - not really CNVs. structural variations (INDEL, INV, translocations & rearrangements). Use in conjunction with dbSNPs for more complete genomic mutations
+
+* FINDbase - Pharmacogenomic markers in different populations. OMIM, PharmGKB, Allele Freq Worldwide in ETHNOS databases
+
+* HGDP (Human Genome Diversity Project) 
 
 
 **4. REJECTED**
