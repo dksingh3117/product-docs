@@ -1,16 +1,16 @@
 .. _applications:
 
 
-Applications and Data
-!!!!!!!!!!!!!!!!!!!!!
+Technologies
+!!!!!!!!!!!!
 
 
-# Languages
+**1. Languages**
 
 * App dev: Java, JS
 
 
-# Databases
+**2. Databases**
 
 * Databases: PostgreSQL (primary), MySQL (secondary)
 
@@ -22,14 +22,16 @@ Applications and Data
 
 * Managed Memcache: Amazon Elasticache
 
+* Protocols: Blockchain for patient genomics? TBD
 
-# Database Tools
+
+**3. Database Tools**
 
 * Database Tools: Airpal? (TBD)
 
 * Big Data Tools: Druid, Presto (TBD)???
 
 
-# Libraries
+**4. Libraries**
 
 * Web App Dev: Node.js, React.js

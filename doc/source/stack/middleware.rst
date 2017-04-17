@@ -1,12 +1,8 @@
 .. _middleware:
 
 
-Middleware
-!!!!!!!!!!
-
-
-Middleware Structure
-@@@@@@@@@@@@@@@@@@@@
+Structure
+@@@@@@@@@
 
 We use a three-tier classification structure for APIs.
 
@@ -23,7 +19,7 @@ Example
 
 This is an example published by MuleSoft of a three-tier architecture for health care. In it, data are abstracted from complex EHR systems like Epic into a canonical model that is represented via a set of FHIR REST APIs. Then, experience APIs are layered on top to provide better experiences for both patients and clinicians.
 
-# System Layer
+**1. System Layer**
 
 System APIs abstract away the complexity of EHRs and other core systems of record from the data’s end user, while providing downstream insulation from any interface changes or rationalization of those systems.
 
@@ -41,7 +37,7 @@ Assets Included:
 
 * Fitness FHIR System API | RAML Definition
 
-# Process Layer
+**2. Process Layer**
 
 Process APIs decouple business processes that interact with and shape data from the source systems where the data originated. For example, the “schedule appointment” process contains logic that is common across multiple entities, which can be called by product, geography, or channel-specific parent services.
 
@@ -59,7 +55,7 @@ Assets Included:
 
 * HL7 Event Handler | Implementation Template (Coming soon)
 
-# Experience Layer
+**3. Experience Layer**
 
 Experience APIs are the means by which data can be reconfigured so that it is most easily consumed by its intended audience, all from a common data source, rather than setting up separate point-to-point integrations.
 

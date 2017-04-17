@@ -1,8 +1,8 @@
 .. _devops:
 
 
-DevOps
-!!!!!!
+Technologies
+!!!!!!!!!!!!
 
 * VM Manager: Vagrant? (TBD)
 

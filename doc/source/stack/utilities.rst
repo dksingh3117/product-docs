@@ -1,8 +1,8 @@
 .. _utilities:
 
 
-Utilities
-!!!!!!!!!
+Technologies
+!!!!!!!!!!!!
 
 * Content Delivery Network: Amazon CloudFront
 

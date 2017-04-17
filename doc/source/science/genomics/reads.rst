@@ -1,11 +1,14 @@
-.. _omics:
+.. _reads:
 
 
-Omics Data
-!!!!!!!!!!
+Reads API
+!!!!!!!!!
 
-Reads Model
-@@@@@@@@@@@
+See `Reads schema <../schemas/reads.proto.html>`_ for a detailed reference.
+
+
+Reads Data Model
+@@@@@@@@@@@@@@@@
 
 The Reads data model,although based on the SAM format, allows for more
 versatile interaction with the data.  Instead of sending whole
