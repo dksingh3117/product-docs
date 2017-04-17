@@ -18,8 +18,7 @@ Drug-Gene
 
 **3. UNDER INVESTIGATION**
 
-* CTD - Comparative Toxicogenomics Database (genes, chemicals, diseases, phenotypes)
-Integrated with: BioGRID (3.4.144 release), ChemIDplus® (as of 27 January 2017), DrugBank (as of 27 January 2017), GO (as of 27 January 2017), KEGG (as of 27 January 2017), MeSH® (2016 MeSH release), NCBI Gene (as of 27 January 2017), NCBI Taxonomy (as of 27 January 2017), PubMed® (as of 27 January 2017), Reactome (as of 27 January 2017)
+* CTD - Comparative Toxicogenomics Database (genes, chemicals, diseases, phenotypes). Integrated with: BioGRID (3.4.144 release), ChemIDplus® (as of 27 January 2017), DrugBank (as of 27 January 2017), GO (as of 27 January 2017), KEGG (as of 27 January 2017), MeSH® (2016 MeSH release), NCBI Gene (as of 27 January 2017), NCBI Taxonomy (as of 27 January 2017), PubMed® (as of 27 January 2017), Reactome (as of 27 January 2017)
 
 * FINDBase - allele frequencies of PGx markers in different populations
 

@@ -1,8 +1,8 @@
 .. _expression:
 
 
-Expression - to be updated
-!!!!!!!!!!!!!!!
+Expression
+!!!!!!!!!!
 
 **1. IN USE**
 
@@ -30,8 +30,7 @@ Expression - to be updated
 
 * GENT - Microarray-derived mRNA expression data from >34000 tissue samples
 
-* Cancer Genome Anatomy Project - Gene expression from normal, precancer and cancer cells
-CGAP/ MGC, ORESTES, EST libraries. Downloadable data in tab-delimited ASCII
+* Cancer Genome Anatomy Project - Gene expression from normal, precancer and cancer cells. CGAP/ MGC, ORESTES, EST libraries. Downloadable data in tab-delimited ASCII
 
 * mirBase - miRNAs database, nomenclature.(a bit like dbSNP but only for miRNAs). need to find out where miRNAs microarrays vs conditions data are. can be found in ENCODE
 

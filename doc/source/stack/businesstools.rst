@@ -42,7 +42,7 @@ Details
 
 * Bug Management: Bugzilla? TBD
 
-* Support Ticketing: TBD
+* Support Ticketing: Freshdesk
 
 * Business Tool Integration: IF/Zapier depending on pre-built integrations
 

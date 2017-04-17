@@ -12,7 +12,8 @@ Somatic
 * COSMIC - Repository of somatic mutation, genotype and whole genome sequencing data from cancer studies (above)
 
 * cBio Cancer Genomics Portal - Searchable Web-tool which integrates tumor and somatic mutation data from TCGA and the Memorial Sloan-Kettering Cancer Center
-Tumorscape - Repository of somatic CNV data from multiple cancer types
+
+* Tumorscape - Repository of somatic CNV data from multiple cancer types
 
 **3. UNDER INVESTIGATION**
 

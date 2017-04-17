@@ -1,8 +1,8 @@
 .. _eqtl:
 
 
-eQTL
-!!!!
+eQTL - may not be useful
+!!!!!!!!!!!!!!!!!!!!!!!!
 
 **1. IN USE**
 
