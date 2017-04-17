@@ -11,7 +11,7 @@ System APIs
 @@@@@@@@@@@
 
 .. toctree::
-   GA4GH_api/index
+   system_api/GA4GH_api/index
 
 
 Process APIs

@@ -32,7 +32,9 @@ Clinical Data
 Clinical data are any data from hospitals, labs, insurance companies, or other direct health care sources. These can include patient medical records, lab tests, and medical images. 
 
 .. toctree::
-   clinical
+   clinical/cerner_sandbox
+   clinical/epic_sandbox
+   clinical/fhir_sandbox
 
 
 Exogenous Data
