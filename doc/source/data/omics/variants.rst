@@ -4,12 +4,12 @@
 Variants
 !!!!!!!!!!!!!!!
 
-# IN USE
+**1. IN USE**
 
 * Galaxy
 
 
-# TARGETED
+**2. TARGETED**
 
 * dbSNP - Single Nucleotide Polymorphism database
 
@@ -31,7 +31,7 @@ Chromosomal assemblies, sequences, maps and annotations
 Less useful than NCBI Gene at this point
 
 
-# UNDER INVESTIGATION
+**3. UNDER INVESTIGATION**
 
 * AceView
 
@@ -59,6 +59,6 @@ Re-sequencing methodology advice & guidance to researchers,
 dbSNP, RefSeq/NCBI genome assembly
 
 
-# REJECTED
+**4. REJECTED**
 
 * Hapmap - Note: deprecated, ignore. Subsumed by 1,000 genomes project - snp genotypes from 11 different populations
