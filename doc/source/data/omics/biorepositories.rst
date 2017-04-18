@@ -31,6 +31,8 @@ Linked open data and biorepositories:
 
 * Qatar Biobank - 300K records
 
+* `Personal Genome Project (Harvard) <http://www.personalgenomes.org/harvard/data/>`_
+
 
 **3. UNDER INVESTIGATION**
 
