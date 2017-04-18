@@ -11,4 +11,4 @@ Schemas
 
 .. toctree::
    ga4gh_intro
-   fhir_intro
+   clinical_intro
