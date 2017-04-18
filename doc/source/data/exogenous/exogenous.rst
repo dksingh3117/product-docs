@@ -13,8 +13,8 @@ Socioeconomic - TBC
 * ethical and ancestry
 
 
-Lifestyle
-@@@@@@@@@
+Lifestyle - TBC
+@@@@@@@@@@@@@@@
 
 * diet
 
@@ -23,8 +23,8 @@ Lifestyle
 * mental well-being
 
 
-Environmental
-@@@@@@@@@@@@@
+Environmental - TBC
+@@@@@@@@@@@@@@@@@@@
 
 * CO2/air
 
