@@ -1,4 +1,4 @@
 Genomics (GA4GH) System API
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-`ga4ghapioverview`_
+:ref:`ga4ghapioverview`_
