@@ -20,6 +20,7 @@ Contents
    data/index
    api_library/index
    app_library/index
+   devops_library/index
    schemas/index
-   development
+   development/index
    changelog
