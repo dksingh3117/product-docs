@@ -12,3 +12,4 @@ Schemas
 .. toctree::
    ga4gh_intro
    clinical_intro
+   mapping

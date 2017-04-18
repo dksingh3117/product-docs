@@ -11,7 +11,7 @@ Variants
 
 **2. TARGETED**
 
-* dbSNP - Single Nucleotide Polymorphism database
+* `dbSNP <https://www.ncbi.nlm.nih.gov/projects/SNP/>_` - Single Nucleotide Polymorphism database
 
 * UCSC genome browser - annotated genomic reference sequences. Similar to NCBI resources but usually slower with update information as new research data are submitted to repositories appear in NCBI first. Leave out for now, or use as secondary verification source
 

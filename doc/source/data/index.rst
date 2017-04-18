@@ -15,7 +15,7 @@ Omics covers genomics, proteomics, and metabolomics. Omics aims at the collectiv
 
 Omics data sources are primarily research knowledgebases and/or curated by individuals wiki-style. As such, while they serve a specific function, they will not be error-free, may be conflicting, and are often incomplete or cross functional lines. 
 
-Our list and organization is not complete, but will be a work in progress. As these sources evolve we will track them here.
+Our list and organization is not complete, but will be a work in progress. As these sources evolve we will track them here. Additional database details can be found in `This Google sheet <https://docs.google.com/spreadsheets/d/1LCwOyLwVUT04TpTZyrzyKP96RnambC2YqRkmlQwPK0I/edit#gid=619233452>`_.
 
 .. toctree::
    omics/biorepositories
