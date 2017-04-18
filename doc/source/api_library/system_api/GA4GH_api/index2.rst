@@ -1,3 +1,5 @@
+.. _ga4ghapioverview:
+
 Genomic Aggregation (GA4GH) API Overview
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
