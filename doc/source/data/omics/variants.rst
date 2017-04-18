@@ -13,16 +13,18 @@ Variants
 
 * dbSNP - Single Nucleotide Polymorphism database
 
-* NCBI Gene - Integrative resource for genes, variants and phenotypes. Annotated genes, variants, phenotypes, linked to specific external resources. Also linked to NCBI Genome
-
 * UCSC genome browser - annotated genomic reference sequences. Similar to NCBI resources but usually slower with update information as new research data are submitted to repositories appear in NCBI first. Leave out for now, or use as secondary verification source
 
 * Ensembl - annotated genomic reference sequences. Similar to NCBI resources, slower with updated data, and uses own IDs but longer string of numbers. Tendency to remove untranslated region from mRNA sequences (ie only Start to Stop codon). Also the basis for other EMBL-EBI resources.
+
+* ANNOVAR - Gene-, region- and filter-based annotation of genomic data.
 
 
 **3. UNDER INVESTIGATION**
 
 * AceView
+
+* NCBI Gene - Integrative resource for genes, variants and phenotypes. Annotated genes, variants, phenotypes, linked to specific external resources. Also linked to NCBI Genome
 
 * NCBI Genome - Integrative resource for genes, variants and phenotypes. Chromosomal assemblies, sequences, maps and annotations. Less useful than NCBI Gene at this point
 

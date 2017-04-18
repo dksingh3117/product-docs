@@ -10,17 +10,19 @@ Gene-Phenotype
 
 **2. TARGETED**
 
-* dbGaP- Database of Genotypes and Phenotypes. controlled access mechanisms
-
-* PhenGenI - Phenotype-Genotype Integrator (PheGenI), merges NHGRI genome-wide association study (GWAS) catalog data with Gene, dbGaP, OMIM, GTEx and dbSNP
+* GWAS Central - genetic wide association studies for wide range of conditions (>1844 studies). dbSNPs, DBGV
 
 * OMIM - Online Mendelian Inheritance in Man
 
-* ClinGen - database of clinical genomics
-
 * NCBI ClinVar - clinically relevant variants
 
+* PhenGenI - Phenotype-Genotype Integrator (PheGenI), merges NHGRI genome-wide association study (GWAS) catalog data with Gene, dbGaP, OMIM, GTEx and dbSNP
+
+* ClinGen - database of clinical genomics
+
 **3. UNDER INVESTIGATION**
+
+* dbGaP- Database of Genotypes and Phenotypes. controlled access mechanisms
 
 * PhenCode - human genotype and phenotype, link locus specific dbs, UniProt with USCS Genome browser
 
@@ -31,8 +33,6 @@ Gene-Phenotype
 * EMBL-EBI GWAS
 
 * HuGE Navigator - web tools enabling mining of literature and genetic association studies. Human Genome Epidemiology encyclopedia. CDC dbs, MeSH, NCBI Gene, HUGO, Pubmed
-
-* GWAS Central - genetic wide association studies for wide range of conditions (>1844 studies). dbSNPs, DBGV
 
 * ENCODE Project - genome browser, non-coding functional elements, new site for project at https://www.encodeproject.org/. Data viewable in GENCODE on BioDalliance Browser specifically for human and mouse genome
 

@@ -3,6 +3,10 @@ Data Sources
 
 This section covers the data sources we use in the platform and how they are organized.
 
+Current Data Network
+@@@@@@@@@@@@@@@@@@@@
+
+---------------REPRESENT AS IMAGE----------------
 
 Omics
 @@@@@
