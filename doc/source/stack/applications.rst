@@ -12,7 +12,7 @@ Technologies
 
 **2. Databases**
 
-* Databases: PostgreSQL (primary), MySQL (secondary)
+* Databases: PostgreSQL (primary), MySQL (secondary), Glacier (patient genomics, other static data @ ~$0.05/gb/yr)
 
 * Database as a Service: Amazon RDS
 
