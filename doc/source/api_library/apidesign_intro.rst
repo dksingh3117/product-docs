@@ -14,8 +14,7 @@ We use a three-tier classification structure for APIs.
 
 * Experience - APIs that combine process and/or System APIs to expose data directly to an app developer (e.g. a web portal experience API that abstracts a FHIR system API and an order test process API with a light-weight RESTful interface). The Experience API can be used to create a front end experience without understanding complex system domains or business logic encapsulated within process APIs.
 
-Example
-@@@@@@@
+**Example**
 
 .. image:: /_static/stack/mulecatalyst.png
 
