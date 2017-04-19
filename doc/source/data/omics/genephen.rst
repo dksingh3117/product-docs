@@ -20,7 +20,10 @@ Gene-Phenotype
 
 * ClinGen - database of clinical genomics
 
+
 **3. UNDER INVESTIGATION**
+
+* PhenX - GWAS & epi tool kit, research oriented. ? downloaded sources, ignore for now.
 
 * dbGaP- Database of Genotypes and Phenotypes. controlled access mechanisms
 
@@ -54,5 +57,3 @@ Gene-Phenotype
 * SIFT - effects of non-synonymous SNPs; predictions. dbSNP, Ensembl gene. Not useful at the moment
 
 * PolyPhen - effects of non-synonymous SNPs; prediction. Not useful at the moment
-
-* PhenX - GWAS & epi tool kit, research oriented. ? downloaded sources, ignore for now.

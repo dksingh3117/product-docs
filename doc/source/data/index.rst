@@ -35,6 +35,8 @@ Our list and organization is not complete, but will be a work in progress. As th
    omics/epigenomics
    omics/phenomics
    omics/microbiome
+   omics/methylome
+   omics/immunome
 
 
 Clinical Data

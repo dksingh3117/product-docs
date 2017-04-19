@@ -13,6 +13,13 @@ Not intended to be a tome of medical information, this is only meant to cover th
    med/medicine_intro
 
 
+Machine and Deep Learning
+@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.. toctree::
+   ml/ml_intro
+
+
 Genomics
 @@@@@@@@
 
