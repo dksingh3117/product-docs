@@ -1,6 +1,6 @@
-###Galaxy
+.. _Galaxy:
 
-####Prerequisite   
+**Prerequisite**   
 1)python  
 ~~~
 $ python -V

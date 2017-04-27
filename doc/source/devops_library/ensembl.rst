@@ -1,6 +1,6 @@
-###Ensembl
+.. _Ensembl:
 
-####Prerequisite  
+**Prerequisite**  
 1) Git   
 ~~~
 sudo yum install git
