@@ -10,8 +10,8 @@ Reference Genomes
 @@@@@@@@@@@@@@@@@
 
 .. toctree::
-   ensembl
-   galaxy
+   ensembl_config
+   galaxy_config
 
 * NCBI RefSeq
 
