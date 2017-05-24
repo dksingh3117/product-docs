@@ -10,6 +10,8 @@ Reference Genomes
 @@@@@@@@@@@@@@@@@
 
 .. toctree::
+  :maxdepth: 2
+  
    ensembl_config
    galaxy_config
 
