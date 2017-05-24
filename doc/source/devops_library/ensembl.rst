@@ -1,4 +1,4 @@
-.. _Ensembl:
+.. _ensembl:
 
 **Prerequisite**  
 1) Git   

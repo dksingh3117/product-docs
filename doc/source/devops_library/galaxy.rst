@@ -1,4 +1,4 @@
-.. _Galaxy:
+.. _galaxy:
 
 **Prerequisite**   
 1)python  
