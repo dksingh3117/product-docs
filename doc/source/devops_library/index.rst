@@ -1,10 +1,7 @@
 DevOps Library
 !!!!!!!!!!!!!!
 
-Library of DevOps tools and code that enable the OmicMD platform
-
-DevOps and knowledgebase Implementations
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Library of DevOps tools and code that enable the OmicMD platform. DevOps and Knowledgebase implementations:
 
 Reference Genomes
 @@@@@@@@@@@@@@@@@
