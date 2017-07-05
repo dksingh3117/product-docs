@@ -1,7 +1,6 @@
-.. _ensembl_config:
 
-ensembl_config
-@@@@@@@@@@@@@@
+## ensembl_config
+
 
 **Prerequisite**  
 1) Git   
