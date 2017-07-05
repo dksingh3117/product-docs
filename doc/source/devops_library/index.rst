@@ -1,40 +1,49 @@
+==============
 DevOps Library
-!!!!!!!!!!!!!!
+==============
 
 Library of DevOps tools and code that enable the OmicMD platform. DevOps and Knowledgebase implementations:
 
+*****************
 Reference Genomes
-@@@@@@@@@@@@@@@@@
+*****************
 
-.. toctree::
-   :maxdepth: 2
+- ensembl_config
 
-   ensembl_config
-   galaxy_config
+- galaxy_config
 
+- NCBI RefSeq
 
-* NCBI RefSeq
+- UCSC
 
-* UCSC
+- AceView
 
-* AceView
-
-
+**********************
 Data Annotation Tracks
-@@@@@@@@@@@@@@@@@@@@@@
+**********************
 
-* NCBI ClinVar	
+- NCBI ClinVar	
 
-* DrugBank
+- DrugBank
 
-* dbSNP
+- dbSNP
 
-* GWAS Catalog
+- GWAS Catalog
 
-* OMIM
+- OMIM
 
-* DruGeVar
+- DruGeVar
 
-* ANOVAR
+- ANOVAR
+
+
+
+
+
+
+
+
+
+
 
 
